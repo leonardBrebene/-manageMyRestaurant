@@ -1,0 +1,10 @@
+.dragableObject{
+position:fixed;
+border: 5px dotted black;
+cursor: pointer;
+/* justify-content: center;
+align-items: center;
+display: flex; */
+
+
+}
