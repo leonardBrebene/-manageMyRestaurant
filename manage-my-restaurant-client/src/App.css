@@ -1,5 +1,7 @@
 .App {
+  position: relative;
   text-align: center;
+  display: flex;
 }
 
 .container {
@@ -17,9 +19,22 @@
   background: cyan;
   margin: 5px;
 }
-#cub{
-  height: 250px;
+
+.randomContainer{
+  position:relative;
+  background-color: rgb(183, 207, 183);
+  width: 1000px;
+  height: 1000px;
+  
+ 
 }
-.imaginea{
-  height: 250px;
+.randomItem{
+  position:absolute;
+  background-color: bisque;
+  width: 250px;
+  padding: 0;
+  border: -250px;
+  display: flex;
+ 
+  
 }

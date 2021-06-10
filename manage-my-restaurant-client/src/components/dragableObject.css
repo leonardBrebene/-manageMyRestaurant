@@ -1,10 +1,9 @@
 .dragableObject{
-position:fixed;
+position:static;
 border: 5px dotted black;
 cursor: pointer;
-/* justify-content: center;
-align-items: center;
-display: flex; */
 
-
+}
+.imaginea{
+    height: 200px;
 }
